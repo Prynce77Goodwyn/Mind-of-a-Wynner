@@ -1,4 +1,4 @@
-article{
+article {
 	display: grid;
 	grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
 	padding: 0.5in 0;
@@ -9,15 +9,80 @@ article * {
 }
 
 .photo1 {
-	
-	
-
 	width: 100%;
 	grid-column: 1 / 8;
 }
 
-@media (max-width: 8.5in){
-	article {
-			grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr;
-	}
+
+h1{
+	font: 700 2.0rem/1.2 "Roboto";
+	color: hsl(000, 0%, 33%);
+	margin-bottom: 1rem;
+
 }
+
+h2{
+	font: 400 1.5rem/1.2 "Roboto";
+	color: hsl(000, 0%, 33%);
+	margin-bottom: 1.2rem;
+}
+
+time{
+	font: 700 1.0rem/1.2 "Roboto";
+	color: hsl(000, 0%, 33%);
+	margin-bottom: 1rem;
+}
+
+h3{
+	font: 700 1.0rem/1.2 "Roboto";	
+	color: hsl(000, 0%, 33%);
+	margin-bottom: 0.4rem;
+}
+
+ul{
+	margin-bottom: 1.4rem;
+}
+
+p{
+	font: 400 1.0rem/1.5 "Roboto";
+	color: hsl(000, 0%, 33%);
+	margin-bottom: 1.4rem;
+}
+
+a {
+	color: hsl(000, 0%, 33%);
+}
+
+figcaption{
+	display: flex;
+	justify-content: center;
+	color: hsl(000, 0%, 33%);
+	margin-top: 0.5rem;
+}
+
+figure * {
+	display: block;
+}
+
+.share{
+	display: flex;
+	justify-content: center;
+}
+
+.share img{
+	padding: 0.75rem;
+	width: 1.50rem;
+	height: 1.50rem;
+}
+
+.tips{
+		font: 400 0.75rem/1.2 "Roboto";
+}
+
+
+@media (max-width: 8.5in) { :root {font-size: 18px; } } 
+	article {
+		grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr;
+	}
+
+@media (max-width: 5.0in) { :root {font-size: 16px; } } 
