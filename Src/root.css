@@ -17,6 +17,9 @@ article * {
 	grid-column: 1 / 8;
 }
 
+div{
+	border: solid
+}
 
 h1{
 	font: 700 2.0rem/1.2 "Roboto";
@@ -65,6 +68,7 @@ p{
 
 a {
 	color: hsl(37, 77%, 12%);
+	text-decoration:underline; 
 }
 
 figcaption{
@@ -81,6 +85,7 @@ figure * {
 .share{
 	display: flex;
 	justify-content: center;
+	border: none;
 }
 
 .share img{
