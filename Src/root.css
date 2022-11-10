@@ -1,3 +1,7 @@
+body{
+	background-color: hsl(154, 100%, 13%);
+}
+
 article {
 	display: grid;
 	grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
@@ -13,23 +17,25 @@ article * {
 	grid-column: 1 / 8;
 }
 
+div{
+	border: solid
+}
 
 h1{
 	font: 700 2.0rem/1.2 "Roboto";
-	color: hsl(000, 0%, 33%);
+	color: hsl(000, 0%, 11%);
 	margin-bottom: 1rem;
-
 }
 
 h2{
 	font: 400 1.5rem/1.2 "Roboto";
-	color: hsl(000, 0%, 33%);
+	color: hsl(000, 0%, 11%);
 	margin-bottom: 1.2rem;
 }
 
 time{
 	font: 700 1.0rem/1.2 "Roboto";
-	color: hsl(000, 0%, 33%);
+	color: hsl(46, 65%, 44%);
 	margin-bottom: 1rem;
 }
 
@@ -41,16 +47,28 @@ h3{
 
 ul{
 	margin-bottom: 1.4rem;
+	list-style-type: none;
+}
+
+li{
+	font: 400 1.0rem/1.5 "Roboto";
+	color: hsl(46, 65%, 56%);
+	margin-bottom: 1.4rem;
+}
+
+.tips{
+	color: hsl(46, 65%, 44%);
 }
 
 p{
 	font: 400 1.0rem/1.5 "Roboto";
-	color: hsl(000, 0%, 33%);
+	color: hsl(46, 65%, 56%);
 	margin-bottom: 1.4rem;
 }
 
 a {
-	color: hsl(000, 0%, 33%);
+	color: hsl(37, 77%, 12%);
+	text-decoration:underline; 
 }
 
 figcaption{
@@ -67,6 +85,7 @@ figure * {
 .share{
 	display: flex;
 	justify-content: center;
+	border: none;
 }
 
 .share img{
@@ -76,7 +95,8 @@ figure * {
 }
 
 .tips{
-		font: 400 0.75rem/1.2 "Roboto";
+	font: 400 0.75rem/1.2 "Roboto";
+	color: hsl(46, 65%, 44%);
 }
 
 
